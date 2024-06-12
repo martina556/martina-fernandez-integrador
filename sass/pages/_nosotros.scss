@@ -1,0 +1,43 @@
+.nosotros-main {
+  margin: 4rem 18rem;
+}
+
+.section-nosotros_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.subrayado {
+  width: fit-content;
+  color: #793167;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-nosotros-cards {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+  justify-content: center;
+  gap: 1rem;
+
+  &__mision-vision-valores {
+    border: 1px solid gray;
+    width: 53rem;
+    padding: 2rem;
+  }
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.icon-cards {
+  height: 2rem;
+
+  &__imagen {
+    height: 1.5rem;
+  }
+}
