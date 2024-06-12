@@ -31,7 +31,7 @@
 /* -------------------------------------------------------- */
 
 .nav-bar {
-  background-color: #efebce;
+  background-color: #793167;
 
   &__nav-list {
     /* .nav-bar__nav-list */
@@ -50,8 +50,9 @@
   &__nav-item {
     text-align: center;
     /* background-color: pink; */
-    border-top: 2px solid #a3a380;
-    border-bottom: 2px solid #a3a380;
+    /*     border-top: 2px solid white;
+    border-bottom: 2px solid white; */
+    transition: ease-out 1s;
   }
 
   &__nav-link {
@@ -59,19 +60,24 @@
     /*     background-color: purple; */
     padding: 1rem 2rem;
     text-decoration: none;
-    color: #bb8588;
-    font-weight: bold;
+    color: white;
+    font-size: 115%;
+    transition: 0.3s ease;
   }
 
-  li:first-child {
+  &__nav-link:hover {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  /*   li:first-child {
     border-radius: 16px 0 0 16px;
-    border-left: 2px solid #a3a380;
+    border-left: 2px solid white;
   }
 
   li:last-child {
     border-radius: 0px 16px 16px 0px;
-    border-right: 2px solid #a3a380;
-  }
+    border-right: 2px solid white;
+  } */
 
   @media (max-width: 768px) {
     & {
@@ -86,39 +92,54 @@
 /* -------------------------------------------------------- */
 
 .search-bar {
-  background-color: #efebce;
+  background-color: #793167;
   display: flex;
   justify-content: center;
+  gap: 10rem;
+  color: white;
 
   &__logo-container {
     /* .search-bar__logo-container */
-    width: 4rem;
+    /* width: 4rem; */
     height: 3.75rem;
   }
 
   &__form-container {
     padding: 1rem;
 
-    background-color: #efebce;
     display: flex;
     flex-basis: 50%;
     justify-content: center;
   }
 
   &__form-label {
-    background-color: #a3a380;
+    background-color: white;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 8px 0 0 8px;
+    color: #793167;
+    border-right: 2px solid #793167;
+    height: 2rem;
   }
 
   &__form-search {
-    background-color: #d8a48f;
-    width: 70%;
-    border: 2px solid #a3a380;
+    background-color: white;
+    width: 40%;
+    border: 2px solid white;
+    height: 2rem;
   }
 
   &__form-submit {
-    background-color: #a3a380;
-    color: black;
+    background-color: white;
+    color: #793167;
     border: none;
+    border-radius: 0 8px 8px 0;
+    border-left: 2px solid #793167;
+    padding: 0.5rem;
+    height: 2rem;
+    width: 2rem;
   }
 
   &__carrito-container {
@@ -132,7 +153,7 @@
 }
 
 #carrito-header path {
-  fill: #a3a380;
+  fill: white;
 }
 
 /* -------------------------------------------------------- */

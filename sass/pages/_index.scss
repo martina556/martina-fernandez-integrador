@@ -1,6 +1,11 @@
 .section-cards {
-  background-color: #f1f2f3;
+  background-color: white;
   padding: 1rem;
+
+  &__header {
+    margin-left: 4rem;
+    color: #793167;
+  }
 }
 
 .cards-container {
@@ -8,4 +13,6 @@
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  width: 76%;
+  margin: auto;
 }
