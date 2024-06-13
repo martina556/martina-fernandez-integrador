@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Integrador - Inicio</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <input type="checkbox" id="menu" />
+      <nav class="nav-bar">
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a
+              href="index.html"
+              class="nav-bar__nav-link nav-bar__nav-link-transition"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a
+              href="alta.html"
+              class="nav-bar__nav-link nav-bar__nav-link-transition"
+              >Alta</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a
+              href="nosotros.html"
+              class="nav-bar__nav-link nav-bar__nav-link-transition"
+              >Nosotros</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a
+              href="contacto.html"
+              class="nav-bar__nav-link nav-bar__nav-link-transition"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-bar -->
+      <div class="search-bar">
+        <div class="search-bar__logo-container">
+          <a href="/" class="search-bar__logo-link">
+            <img
+              src="./public/img/rita.svg"
+              alt="logo"
+              class="search-bar__logo"
+            />
+          </a>
+        </div>
+        <form action="#" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label">Buscar</label>
+          <input type="search" class="search-bar__form-search" id="busqueda" />
+          <input type="submit" class="search-bar__form-submit" value="" />
+        </form>
+        <div class="search-bar__carrito-container">
+          <img
+            src="./public/img/minicart.svg"
+            alt="minicart"
+            class="search-bar__carrito-image"
+          />
+        </div>
+        <div class="menu-toogle">
+          <label for="menu" class="menu-toogle__label">
+            <span class="menu-toogle__top-bread"></span>
+            <span class="menu-toogle__meat"></span>
+            <span class="menu-toogle__bottom-bread"></span>
+          </label>
+        </div>
+      </div>
+      <!-- .search-bar -->
+    <main class="contacto-main">
+        <section class="section-contacto">
+          <h1 class="subrayado">¿NECESITAS AYUDA?</h1>
+            <fieldset>
+              <div class="contacto-form">
+              <legend>Nombre*</legend>
+              <input type="text" required class="contacto-form__barra" />
+              <legend>Apellido*</legend>
+              <input type="text" required class="contacto-form__barra"/>
+              <legend>Provincia*</legend>
+               <select name="provincia" id="" class="contacto-form__barra">
+                <option disabled selected ></option>
+                <option value="Buenos Aires">BUENOS AIRES</option>
+                <option value="CABA">CIUDAD AUTONOMA DE Bs As</option>
+                <option value="Catamarca">CATAMARCA</option>
+                <option value="cordoba">CORDOBA</option>
+                <option value="Corrientes">CORRIENTES</option>
+                <option value="Chaco">CHACO</option>
+                <option value="Chubut">CHUBUT</option>
+                <option value="Entre Rios">ENTRE RIOS</option>
+                <option value="Formosa">FORMOSA</option>
+                <option value="Jujuy">JUJUY</option>
+                <option value="La Pampa">LA PAMPA</option>
+                <option value="La Rioja">LA RIOJA</option>
+                <option value="Mendoza">MENDOZA</option>
+                <option value="Misiones">MISIONES</option>
+                <option value="Neuquen">NEUQUEN</option>
+                <option value="Rio Negro">RIO NEGRO</option>
+                <option value="Salta">SALTA</option>
+                <option value="San Luis">SAN LUIS</option>
+                <option value="Santa Cruz">SANTA CRUZ</option>
+                <option value="Santa Fe">SANTA FE</option>
+                <option value="Santiago del Estero">SANTIAGO DEL ESTERO</option>
+                <option value="Tierra del Fuego">TIERRA DEL FUEGO</option>
+                <option value="Tucuman">TUCUMAN</option>
+              </select>
+              <legend>Numero de telefono*</legend>
+              <input type="tel" required class="contacto-form__barra"/>
+              <legend>Mail*</legend>
+              <input type="email" required class="contacto-form__barra"/>
+              <legend>¿Por qué necesita comunicarse con nosotros?</legend>
+              <textarea name="" id="" class="contacto-form__coment"></textarea>
+              <div>
+                <button>Enviar</button>
+              </div>
+            </fieldset>
+          </div>
+        </section>
+      
+</main>
+
+      <script type="module" src="/main.js"></script>
+    </body>
+  </html>
+  
