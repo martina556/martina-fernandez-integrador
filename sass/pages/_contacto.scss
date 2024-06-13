@@ -6,6 +6,12 @@ fieldset {
   border: none;
 }
 
+.content-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .contacto-form {
   background-color: #793163;
   width: fit-content;
@@ -33,6 +39,30 @@ fieldset {
     padding: 3px;
     height: 4rem;
   }
+
+  &__barra:hover {
+    border: 2px solid #afafaf;
+  }
+
+  &__coment:hover {
+    border: 2px solid #afafaf;
+  }
+
+  &__barra:focus {
+    background-color: #ac7b9d;
+  }
+
+  &__coment:focus {
+    background-color: #ac7b9d;
+  }
+}
+
+.card-mapa {
+  height: 85%;
+}
+
+.card-mapa iframe {
+  height: 90%;
 }
 
 legend {
