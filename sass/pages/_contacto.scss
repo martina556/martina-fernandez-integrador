@@ -92,3 +92,24 @@ legend {
   color: white;
   padding-top: 1rem;
 }
+
+.button-contacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+  &__content {
+    padding: 0.5rem;
+    background-color: white;
+    color: #793163;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+
+  &__content:hover {
+    background-color: #ac7b9d;
+    color: white;
+  }
+}
