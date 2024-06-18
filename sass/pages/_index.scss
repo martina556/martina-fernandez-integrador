@@ -18,3 +18,15 @@
   width: 76%;
   margin: auto;
 }
+
+@media screen and (max-width: 576px) {
+  .cards-container {
+    width: 100%;
+  }
+
+  .section-cards {
+    &__header {
+      margin: 2rem 3rem;
+    }
+  }
+}

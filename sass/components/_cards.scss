@@ -41,29 +41,19 @@
 
   /* ----------------------------------------- */
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     & {
       /* .card */
-      min-width: 400px;
-      max-width: 500px;
-      height: 200px;
+      height: 90%;
+      width: 100%;
+    }
+    &__image {
+      width: 200px;
     }
 
     &__article {
       /* .card__article */
       display: flex;
-    }
-
-    & &__image-container {
-      /* .card .card__image-container */
-      width: 40%;
-      clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%); /* Estado inicial */
-    }
-
-    &:hover &__image-container,
-    &:focus &__image-container {
-      width: 40%;
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Estado final */
     }
   }
 }
