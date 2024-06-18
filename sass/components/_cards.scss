@@ -1,6 +1,5 @@
 .card {
   background-color: white;
-  /*  border: 2px solid #a3a380; */
   padding: 0.5rem;
   width: 270px;
   height: 350px;
@@ -8,15 +7,6 @@
   border-radius: 8px;
   border: 2px solid #793167;
   box-shadow: rgb(156, 154, 156) 0px 2px 3px 0px;
-
-  /*   width: 270px;
-  max-width: 300px;
-  height: 400px;
-  background-color: orange;
-  overflow: hidden;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  padding: 0.5rem; */
 
   &__image {
     width: 100%;

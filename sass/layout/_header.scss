@@ -49,14 +49,10 @@
 
   &__nav-item {
     text-align: center;
-    /* background-color: pink; */
-    /*     border-top: 2px solid white;
-    border-bottom: 2px solid white; */
   }
 
   &__nav-link {
     display: block;
-    /*     background-color: purple; */
     padding: 1rem 2rem;
     text-decoration: none;
     color: white;
@@ -73,6 +69,7 @@
       background-color: white;
       transition: width 0.4s ease-in-out;
     }
+
     &-transition:hover::after {
       width: 100%;
     }
@@ -103,7 +100,6 @@
 
   &__logo-container {
     /* .search-bar__logo-container */
-    /* width: 4rem; */
     height: 6rem;
     .search-bar__logo {
       height: 6rem;
