@@ -1,0 +1,54 @@
+/* ---------------------------------------- */
+/* ---------------FOOTER----------------- */
+/* ---------------------------------------- */
+
+footer {
+  background-color: #793163;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.section-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-info,
+.card-ayuda,
+.card-redes {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: white;
+}
+
+.list-redes {
+  list-style-type: none;
+}
+
+.icons-redes {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  height: 1.5rem;
+  border-radius: 12px;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.section-derechos {
+  width: fit-content;
+  border-top: 1px solid rgba(231, 231, 231, 0.9450980392);
+  color: white;
+  padding: 0.5rem;
+  margin-left: 16rem;
+}
