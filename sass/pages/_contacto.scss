@@ -113,3 +113,38 @@ legend {
     color: white;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .card-contacto {
+    width: 100%;
+  }
+  .section-mapa {
+    gap: 2rem;
+  }
+
+  .contacto-main {
+    margin: 2rem 5rem;
+  }
+
+  .content-contacto {
+    flex-direction: column;
+  }
+
+  .contacto-form {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .card-mapa {
+    height: 50%;
+  }
+
+  .card-mapa iframe {
+    height: 100%;
+    width: 100%;
+  }
+  .subrayado {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
