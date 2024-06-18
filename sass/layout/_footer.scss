@@ -6,13 +6,13 @@ footer {
   background-color: #793163;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1rem 13rem;
 }
 
 .section-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card-info,
@@ -50,5 +50,10 @@ footer {
   border-top: 1px solid rgba(231, 231, 231, 0.9450980392);
   color: white;
   padding: 0.5rem;
-  margin-left: 16rem;
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    padding: 1rem 2rem;
+  }
 }
