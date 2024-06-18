@@ -9,6 +9,7 @@
   @media (max-width: 576px) {
     & {
       /* .main-header */
+      flex-direction: column-reverse;
     }
   }
 }
