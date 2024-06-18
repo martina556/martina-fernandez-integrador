@@ -203,11 +203,20 @@
   &__bottom-bread {
     bottom: 0.8rem;
   }
+}
 
-  @media (max-width: 768px) {
-    & {
-      /* .menu-toogle */
-      display: block;
+@media (max-width: 576px) {
+  .menu-toogle {
+    /* .menu-toogle */
+    display: block;
+    background-color: #793167;
+    &__label {
+      background-color: #793167;
     }
+  }
+  .search-bar {
+    gap: 0rem;
+    justify-content: space-between;
+    padding: 0rem 0rem 0rem 1rem;
   }
 }
