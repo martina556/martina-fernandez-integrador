@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "foto": "./public/img/espuma-limpieza.webp",
+      "name": "Espuma de limpieza",
+      "description": "De aroma dulce y frutal, este limpiador con textura liviana, es ideal para todo tipo de piel."
+    },
+    {
+      "id": 2,
+      "foto": "./public/img/crema-1.webp",
+      "name": "Crema - Light Balance",
+      "description": "Crema hidratante ultra liviana oil-free."
+    },
+    {
+      "id": 3,
+      "foto": "./public/img/crema-2.webp",
+      "name": "Crema - Skin Hero",
+      "description": "Crema facial extra hidratante y regeneradora."
+    },
+    {
+      "id": 4,
+      "foto": "./public/img/bruma-1.webp",
+      "name": "Bruma de Hamamelis",
+      "description": "Es calmante, astringente antiinflamatoria."
+    },
+    {
+      "id": 5,
+      "foto": "./public/img/bruma-2.webp",
+      "name": "Bruma de Rosas",
+      "description": "Este hermoso tónico es el paso dos de tu rutina de cuidado facial."
+    },
+    {
+      "id": 6,
+      "foto": "./public/img/macarilla.webp",
+      "name": "Mascarilla - Green Forest",
+      "description": "Formulada especialmente para pieles mixtas y grasas."
+    },
+    {
+      "id": 7,
+      "foto": "./public/img/pads.webp",
+      "name": "Pads reutilizables",
+      "description": "Ideal para realizar limpieza facial y remover el maquillaje."
+    },
+    {
+      "id": 8,
+      "foto": "./public/img/balsamo-2.webp",
+      "name": "Bálsamo labial natural - Strawberry Kiss",
+      "description": "Beneficios hidrata, repara y regenera la piel de tus labios."
+    },
+    {
+      "id": 9,
+      "foto": "./public/img/balsamo-1.webp",
+      "name": "Bálsamo labial natural - Cocoa Care",
+      "description": "Beneficios hidrata, repara y regenera la piel de tus labios."
+    },
+    {
+      "id": 10,
+      "foto": "./public/img/serum.webp",
+      "name": "Serum Nocturno",
+      "description": "Su efecto es hidratante y regenerador."
+    },
+    {
+      "id": 11,
+      "foto": "./public/img/jabonera.webp",
+      "name": "Jabonera de ceramica",
+      "description": "Es artesanal, 100% hecha a mano."
+    },
+    {
+      "id": 12,
+      "foto": "./public/img/vincha.webp",
+      "name": "Vincha polar soft",
+      "description": "Elastizada, suave y fácil de colocar. No daña el cabello."
+    }
+  ]
+}
