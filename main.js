@@ -7,8 +7,6 @@ import './sass/layout/_footer.scss';
 import Handlebars from 'handlebars';
 
 const start = async () => {
-  console.log('hOLA MUNDO');
-
   try {
     const respuesta = await fetch('templates/card.hbs');
     if (!respuesta.ok) {
