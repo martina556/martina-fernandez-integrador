@@ -20,7 +20,7 @@ const start = async () => {
     const template = Handlebars.compile(plantilla);
 
     const respuestaBack = await fetch(
-      'https://66a84e8053c13f22a3d24aac.mockapi.io/productos/productos',
+      'https://66a84e8053c13f22a3d24aac.mockapi.io/productos/productos/',
     );
     //console.log(respuestaBack);
     if (!respuestaBack.ok) {
