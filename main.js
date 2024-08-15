@@ -4,7 +4,7 @@ import './sass/pages/_nosotros.scss';
 import './sass/pages/_contacto.scss';
 import './sass/layout/_header.scss';
 import './sass/layout/_footer.scss';
-import Handlebars from 'handlebars';
+/* import Handlebars from 'handlebars';
 
 const start = async () => {
   try {
@@ -42,4 +42,4 @@ const start = async () => {
     console.error('Error al cargar el template', error);
   }
 };
-window.addEventListener('DOMContentLoaded', start);
+window.addEventListener('DOMContentLoaded', start); */
